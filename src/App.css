@@ -47,3 +47,24 @@ input[type='text'] {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App,
+body {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 12px 0;
+}
+
+.App hr {
+  border:  unset;
+  margin: 2rem 0;
+  border-bottom: 2px solid #4ec5e6;
+}
